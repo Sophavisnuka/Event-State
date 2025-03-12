@@ -1,8 +1,12 @@
+import { useState } from "react";
+
 import { Carousel } from "./components/Carousel";
 
 import { ALL_IMAGES } from "./data/imagesData.js";
 
+
 function App() {
+
   return (
     <>
       <header>
